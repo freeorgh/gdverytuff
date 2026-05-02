@@ -2537,7 +2537,7 @@ _buildSettingsPopup() {
     }
     const xPos = screenWidth / 2;
     const _0x4c3182 = 320;
-    const _0xe2830b = 336;
+    const _0xe2830b = 375;
     this._infoPopup = this.add.container(0, 0).setScrollFactor(0).setDepth(200);
     const _0x249eb7 = this.add.rectangle(xPos, _0x4c3182, screenWidth, screenHeight, 0, 100 / 255);
     _0x249eb7.setInteractive();
@@ -2568,6 +2568,8 @@ _buildSettingsPopup() {
     const _0x3cdf70d = this.add.bitmapText(xPos, yPos, "goldFont", "and Lasokar.", 40).setOrigin(0.5, 0.5).setScale(0.6);
     this._infoPopup.add(_0x3cdf70d);
     yPos += 35;
+    const _0x3cdf70e = this.add.bitmapText(xPos, yPos, "goldFont", "Forked by: d2crashout/amogus9898", 40).setOrigin(0.5, 0.5).setScale(0.6);
+    this._infoPopup.add(_0x3cdf70e);
     const _0x97b2a9 = this.add.text(xPos, 463, "© 2026 RobTop Games. All rights reserved.", {
       fontSize: "12px",
       color: "#000000",
